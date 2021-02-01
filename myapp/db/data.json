@@ -1,0 +1,88 @@
+{
+  "restaurents": [
+    {
+      "name": "KFC Restaurent",
+      "address": "Anand Vihar",
+      "email": "k@test.com",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Zaika restaurents",
+      "address": "Gurugao sector 19",
+      "email": "zaika@test.com"
+    },
+    {
+      "name": "limra cafe",
+      "address": "toli chauki hydrabad",
+      "email": "limra@test.com",
+      "id": 3
+    },
+    {
+      "name": "hallal meet chicken ",
+      "address": "shahhen bagh",
+      "email": "hallal@test.com",
+      "id": 4
+    },
+    {
+      "name": "saad restorent",
+      "address": "noida near metro",
+      "email": "s@test.com",
+      "id": 5
+    },
+    {
+      "name": "nadim restaurent",
+      "address": "pakri",
+      "email": "n@tedt.com",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "name": "nadim",
+      "email": "nadim@test.com",
+      "password": "1233",
+      "id": 1
+    },
+    {
+      "name": "meraj",
+      "email": "meraj@test.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "saad restaurent",
+      "email": "sa",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    }
+  ],
+  "usersLogin": [
+    {
+      "email": "nadim@gmail.com",
+      "password": "12",
+      "id": 1
+    },
+    {
+      "email": "nadim@gmail.com",
+      "password": "12",
+      "id": 2
+    },
+    {
+      "email": "gmail.com",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 4
+    }
+  ]
+}

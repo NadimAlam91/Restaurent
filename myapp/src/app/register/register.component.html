@@ -1,0 +1,24 @@
+<h1>Register new user</h1>
+<div class="col-sm-3">
+   <div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>success!</strong>New user has been Ragister.
+    <button (click)="closeAlert()" type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+    <form [formGroup]="addRagister" (ngSubmit)="collect()">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Name</label>
+            <input type="text" class="form-control" formControlName="name" placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" formControlName="email" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Password</label>
+            <input type="password" class="form-control" formControlName="password" placeholder="Enter password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
